@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html.no-scroll,
+body.no-scroll {
+  overflow: hidden;
+}
+
+html.lock,
+body.lock {
+  overflow: hidden;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/*---- Blocks ----
+------*/
+.top-bar {
+  background: #f7fafc;
+  padding: 1.111rem 0;
+}
+
+.top-bar span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin-bottom: -1rem;
+}
+
+.top-bar__date {
+  margin-right: 3.8rem;
+  font-size: 0.8888rem;
+  line-height: 1.2;
+  color: #646464;
+}
+
+.top-bar__link {
+  padding-right: 20px;
+  font-size: 0.8888rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #646464;
+  border-right: 2px #8c9090 solid;
+}
+
+.top-bar__link:hover {
+  color: #ed1c24;
+}
+
+.top-bar__link:last-child {
+  border-right: none;
+  padding-left: 1.111rem;
+  padding-right: 0;
+}
+
+.top-bar__social-link {
+  margin-left: 1.6666rem;
+  opacity: 1;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.top-bar__social-link:hover img {
+  opacity: 0.6;
+  -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.top-bar__social-link:first-child {
+  margin-left: 0;
+}
+/*# sourceMappingURL=style.css.map */
